@@ -1,3 +1,53 @@
-.navigation li{
-    display: inline;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;600&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f0f0f0; /* Light grey background for contrast */
+  color: #050517; /* Midnight Eclipse for the main text color */
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 700; /* Bold */
+  color: #050517; /* Midnight Eclipse */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.navigation {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  margin-bottom: 40px; /* Additional spacing */
+}
+
+.navigation li {
+  display: inline;
+  margin: 0 10px; /* Spacing between navigation items */
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #496a81; /* Stormy Harbor */
+  font-weight: 700; /* Bold for better readability */
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #050517; /* Consistent text color */
+}
+
+footer {
+  text-align: center;
+  padding-top: 20px;
+  margin-top: 40px;
+  border-top: 1px solid #66999b; /* Seafoam Whisper for a subtle separator */
+  color: #b3af8f; /* Ancient Parchment for a softer look in the footer */
+}
+
+footer p {
+  font-size: 14px;
 }
