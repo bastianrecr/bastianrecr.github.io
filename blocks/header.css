@@ -1,0 +1,40 @@
+.header {
+  width: 100%;
+}
+
+.header__content {
+  margin: 0 auto;
+  width: 71.875%;
+  padding: 7% 0;
+  display: flex;
+  column-gap: 32px;
+  justify-content: center;
+}
+
+.header__intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header__title {
+  width: 79.2%;
+  margin: 0 0 10px 0;
+  grid-area: name;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 44px;
+}
+
+.header__intro-text {
+  margin: 0;
+  width: 91.45%;
+  font-family: "Courier New", Courier, monospace;
+  color: #9c9c9c;
+}
+
+.header__image {
+  grid-area: picture;
+  border-radius: 50%;
+}
