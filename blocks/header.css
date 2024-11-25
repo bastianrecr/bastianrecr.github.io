@@ -38,3 +38,24 @@
   grid-area: picture;
   border-radius: 50%;
 }
+
+@media screen and (max-width: 600px) {
+  .header__content {
+    flex-direction: column;
+  }
+  .header__image {
+    order: -1;
+    size: 50%;
+  }
+  .header__intro {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+  .header__title {
+    width: 100%;
+  }
+
+  .header__intro-text {
+  }
+}
