@@ -32,11 +32,23 @@
   width: 91.45%;
   font-family: "Courier New", Courier, monospace;
   color: #9c9c9c;
+  padding-bottom: 30px;
 }
 
 .header__image {
   grid-area: picture;
   border-radius: 50%;
+}
+
+.header__button {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  background-color: #3f8e00;
+  padding: 15px;
+  width: 250px;
+  text-align: center;
 }
 
 @media screen and (max-width: 600px) {
