@@ -51,7 +51,7 @@
   text-align: center;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 544px) {
   .header__content {
     flex-direction: column;
   }
