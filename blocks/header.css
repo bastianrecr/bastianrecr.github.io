@@ -38,7 +38,7 @@
   border-radius: 50%;
 }
 
-.header__button {
+/* .header__button {
   font-family: "Courier New", Courier, monospace;
   font-weight: bold;
   text-decoration: none;
@@ -47,7 +47,7 @@
   padding: 15px;
   width: 52%;
   text-align: center;
-}
+} */
 
 @media screen and (min-width: 544px) and (max-width: 1024px) {
   .header__content {
@@ -82,7 +82,7 @@
   .header__intro-text {
   }
 
-  .header__button {
+  /* .header__button {
     width: 60%;
-  }
+  } */
 }
