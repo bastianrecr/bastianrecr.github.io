@@ -1,11 +1,16 @@
 .header {
   width: 100%;
+  font-family: "Courier New", Courier, monospace;
+  color: #9c9c9c;
 }
 
 .header__content {
   margin: 0 auto;
   width: 71.875%;
   padding: 7% 0;
+}
+
+.header__bio {
   display: flex;
   column-gap: 32px;
   justify-content: center;
@@ -29,8 +34,6 @@
 .header__intro-text {
   margin: 0;
   width: 91.45%;
-  font-family: "Courier New", Courier, monospace;
-  color: #9c9c9c;
   padding-bottom: 30px;
 }
 
@@ -63,7 +66,7 @@
 }
 
 @media screen and (max-width: 544px) {
-  .header__content {
+  .header__bio {
     flex-direction: column;
   }
   .header__image {
