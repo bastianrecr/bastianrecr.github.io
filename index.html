@@ -156,40 +156,66 @@
       </header>
       <main class="main">
         <section class="projects">
-          <h2 class="projects__title">My Projects</h2>
-
+          <h2 class="projects__title">My Web Dev Projects</h2>
+          <p class="projects__description">
+            Below you will find a selection of projects I have worked on,
+            organized by learning platform, institution, job, or personal
+            initiative. Click on each project source to expand its section and
+            explore the projects within. You can also visit the live sites by
+            clicking the
+            <strong class="projects__description_bold">'Go to Project'</strong>
+            button.
+          </p>
           <section class="project-source">
-            <h3 class="project-source__title">Codecademy</h3>
-            <p class="project-source__description">
-              Projects completed as part of the Full-Stack Engineer Career Path.
-            </p>
-
-            <div class="project-source__projects">
-              <article class="project-card">
-                <img
-                  src="images/projects/faq.png"
-                  alt="Mixed Messages Project"
-                  class="project-card__image"
-                />
-                <div class="project-card__content">
-                  <h4 class="project-card__title">
-                    Mixed Messages | Random Workout Generator
-                  </h4>
-                  <p class="project-card__description">
-                    A JavaScript program that generates randomized workout
-                    suggestions by combining pace, exercise, and recommendation
-                    — built as part of Codecademy’s Full-Stack Engineer Path.
-                  </p>
-                </div>
-              </article>
-
-              <!-- More project-card blocks -->
+            <div class="project-source__header">
+              <h3 class="project-source__title">Codecademy</h3>
+              <svg
+                class="project-source__arrow"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+              >
+                <polyline points="9 18 15 12 9 6" />
+              </svg>
             </div>
+            <article class="project-source__content">
+              <p class="project-source__description">
+                Projects completed as part of the Full-Stack Engineer Career
+                Path.
+              </p>
+              <div class="project-source__projects">
+                <article class="project-card">
+                  <img
+                    src="images/project-screenshots/mixed-messages.png"
+                    alt="Mixed Messages Project"
+                    class="project-card__image"
+                  />
+                  <div class="project-card__content">
+                    <h4 class="project-card__title">
+                      Mixed Messages | Random Workout Generator
+                    </h4>
+                    <p class="project-card__description">
+                      A JavaScript program that generates randomized workout
+                      suggestions by combining pace, exercise, and
+                      recommendation — built as part of Codecademy’s Full-Stack
+                      Engineer Path.
+                    </p>
+                    <a
+                      href="https://github.com/bastianrecr/mixed-messages"
+                      target="_blank"
+                      class="project-card__button"
+                      >Go to Project</a
+                    >
+                  </div>
+                </article>
+                <!-- More project-card blocks -->
+              </div>
+            </article>
           </section>
 
           <!-- Repeat project-source for other platforms -->
         </section>
       </main>
     </div>
+    <script src="./scripts/index.js"></script>
   </body>
 </html>

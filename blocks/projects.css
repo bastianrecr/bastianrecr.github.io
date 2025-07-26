@@ -1,4 +1,14 @@
+.projects {
+  padding: 7% 0;
+}
+
+.projects__description_bold {
+  font-weight: 900;
+}
+
 .projects__title {
+  margin: 0;
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 34px;
+  text-align: center;
 }

@@ -1,0 +1,57 @@
+.project-source {
+}
+
+.project-source__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* Rotate arrow when open */
+.project-source__header[aria-expanded="true"] .project-source__arrow {
+  transform: rotate(90deg);
+}
+
+.project-source__title {
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+}
+
+.project-source__arrow {
+  font-size: 1.2rem;
+  transition: transform 0.3s ease;
+  width: 16px;
+  height: 16px;
+  fill: none;
+  stroke: #1b1b1b;
+  stroke-width: 2px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.project-source__content {
+  display: none;
+}
+
+.project-source__content_show {
+  display: block;
+}
+
+.project-source__projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2%;
+  width: 100%;
+}
+@media screen and (min-width: 544px) and (max-width: 1024px) {
+  .project-source__projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 544px) {
+  .project-source__projects {
+    display: flex;
+    flex-direction: column;
+  }
+}
