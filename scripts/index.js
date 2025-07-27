@@ -17,3 +17,8 @@ document.querySelectorAll(".project-source__header").forEach((header) => {
     projectsContainer.setAttribute("aria-hidden", String(isExpanded));
   });
 });
+
+// Updates Copyright Year
+const yearSpan = document.getElementById("year");
+const currentYear = new Date().getFullYear;
+yearSpan.textContent = currentYear;
