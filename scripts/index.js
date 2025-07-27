@@ -20,5 +20,5 @@ document.querySelectorAll(".project-source__header").forEach((header) => {
 
 // Updates Copyright Year
 const yearSpan = document.getElementById("year");
-const currentYear = new Date().getFullYear;
+const currentYear = new Date().getFullYear();
 yearSpan.textContent = currentYear;
