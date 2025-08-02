@@ -4,6 +4,11 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  transition: box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
 }
 
 .project-card__image {
@@ -30,15 +35,22 @@
   margin: 0;
 }
 
+.project-card__buttons {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
 .project-card__button {
   font-family: "Courier New", Courier, monospace;
+  font-size: 12px;
   font-weight: bold;
   text-decoration: none;
   color: #fff;
   background-color: #3f8e00;
   border-radius: 4px;
-  padding: 15px;
-  width: 52%;
+  padding: 10px;
+  width: 35%;
   text-align: center;
   display: block;
 }
@@ -62,8 +74,11 @@
   }
 }
 @media screen and (max-width: 544px) {
+  .project-card__buttons {
+    justify-content: center;
+  }
   .project-card__button {
-    align-self: center;
+    width: 60%;
   }
   .project-card__image {
     height: 150px;
